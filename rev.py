@@ -1,0 +1,7 @@
+list=eval(input("Enter a list "))
+list.sort()
+print(list)
+l=len(list)
+print("The largest number of the list is ",list[l-1])
+print("The second largest number of the list is ",list[l-2])
+print("The third largest number of the list is ",list[l-3])
